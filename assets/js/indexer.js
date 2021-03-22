@@ -61,14 +61,14 @@ async function load() {
 }
 
 function ensureRemoved(category) {
-    let storeTabs = document.getElementById("storeTabs");
+    let storeTabs = document.getElementById("tabs");
     let categoryTab = document.getElementById(`${category}Tab`);
 
     if (categoryTab !== null) {
         storeTabs.removeChild(categoryTab);
     }
 
-    let storePanes = document.getElementById(`storePanes`);
+    let storePanes = document.getElementById(`panes`);
     let categoryPane = document.getElementById(`${category}Pane`);
 
     if (categoryPane !== null) {
@@ -82,11 +82,11 @@ function ensureExists(category) {
 }
 
 function ensurePaneExists(category) {
-    let storePanes = document.getElementById("storePanes");
+    let storePanes = document.getElementById("panes");
 
     if (storePanes === null) {
         storePanes = document.createElement("div");
-        storePanes.id = "storePanes";
+        storePanes.id = "panes";
         storePanes.classList.add("tab-content");
         document.body.append(storePanes);
     }
@@ -111,11 +111,11 @@ function ensurePaneExists(category) {
 }
 
 function ensureTabExists(category) {
-    let storeTabs = document.getElementById("storeTabs");
+    let storeTabs = document.getElementById("tabs");
 
     if (storeTabs === null) {
         storeTabs = document.createElement("ul");
-        storeTabs.id = "storeTabs";
+        storeTabs.id = "tabs";
         storeTabs.classList.add("nav");
         storeTabs.classList.add("nav-tabs");
         document.body.append(storeTabs);
@@ -146,7 +146,7 @@ function ensureTabExists(category) {
 }
 
 function getUrlFor(owner, slug, category) {
-    return `https://raw.githubusercontent.com/${owner}/${slug}/master/_data/${category}.json`;
+    return `https://raw.githubusercontent.com/${owner}/${slug}/data/${category}.json`;
 }
 
 async function getJson(url) {
@@ -212,7 +212,6 @@ async function processDataInternal(category, data, omitted) {
     table.classList.add("table-striped");
     table.classList.add("table-hover");
     table.classList.add("table-borderless");
-    // table.classList.add("align-middle");
     let tableHeader = document.createElement("thead");
     let headerRow = document.createElement("tr");
     let tableBody = document.createElement("tbody")
@@ -225,12 +224,15 @@ async function processDataInternal(category, data, omitted) {
         for (let a = 0; a < _keys.length; a++) {
             let key = _keys[a];
 
-            if (omitted.includes(key)) {
+            if (omitted.includes(key.toLowerCase())) {
                 continue;
             }
 
             keys.push(key);
         }
+
+        console.log(omitted);
+        console.log(keys);
 
         for (let i = 0; i < keys.length; i++) {
             let key = keys[i];
