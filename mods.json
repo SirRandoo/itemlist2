@@ -1,0 +1,38 @@
+[
+  {
+    "Author": "Andreas Pardeike",
+    "Name": "Harmony",
+    "SteamId": "2009463077",
+    "Version": "1.0.4.0"
+  },
+  {
+    "Author": "Jaxe",
+    "Name": "PublisherPlus",
+    "SteamId": null,
+    "Version": null
+  },
+  {
+    "Author": "SirRandoo",
+    "Name": "Just Another Mod Manager",
+    "SteamId": "",
+    "Version": "1.0.0.0"
+  },
+  {
+    "Author": "hodlhodl",
+    "Name": "ToolkitCore",
+    "SteamId": "2018368654",
+    "Version": "1.0.0.0"
+  },
+  {
+    "Author": "hodlhodl",
+    "Name": "Twitch Toolkit",
+    "SteamId": "1718525787",
+    "Version": "2.0.10.0"
+  },
+  {
+    "Author": "SirRandoo",
+    "Name": "ToolkitUtils - Testing",
+    "SteamId": "2230192317",
+    "Version": "6.0.0.0-beta7"
+  }
+]
