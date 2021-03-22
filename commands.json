@@ -1,0 +1,592 @@
+[
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Updates the current list of active viewers.",
+    "Name": "Refresh viewers",
+    "Usage": "!refreshviewers",
+    "UserLevel": "Moderator"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Awards all active viewers coins.",
+    "Name": "Karma round",
+    "Usage": "!karmaround",
+    "UserLevel": "Moderator"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Gives everyone coins.",
+    "Name": "Give all coins",
+    "Usage": "!giveallcoins <coins>",
+    "UserLevel": "Moderator"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Gives a viewer coins.",
+    "Name": "Give coins",
+    "Usage": "!givecoins <viewer> <coins>",
+    "UserLevel": "Moderator"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows the balance of a given user.",
+    "Name": "Check user",
+    "Usage": "!checkuser <viewer>",
+    "UserLevel": "Moderator"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Sets the current karma for a given user.",
+    "Name": "Set karma",
+    "Usage": "!setkarma <viewer> <karma>",
+    "UserLevel": "Moderator"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Toggles coin generation.",
+    "Name": "Toggle coins",
+    "Usage": "!togglecoins",
+    "UserLevel": "Moderator"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows your current balance, karma, and, optionally, the amount of coins earned per cycle.",
+    "Name": "Check balance",
+    "Usage": "!bal",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Gives an overview of what karma is in relation to Twitch Toolkit.",
+    "Name": "Karma explanation",
+    "Usage": "!whatiskarma",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Directs you here!",
+    "Name": "Purchase list",
+    "Usage": "!purchaselist",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Adds you to the name queue.",
+    "Name": "Join queue",
+    "Usage": "!joinqueue",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows you information about Twitch Toolkit.",
+    "Name": "Mod info",
+    "Usage": "!modinfo",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Lets you buy things from the store.",
+    "Name": "Buy",
+    "Usage": "!buy",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "Lets you wager coins to level up a skill of your choosing.",
+    "Name": "Level skill",
+    "Usage": "!levelskill <skill> <coins>",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows you important settings for Twitch Toolkit, like the karma cap.",
+    "Name": "Mod settings",
+    "Usage": "!modsettings",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Gives you a brief set of instructions on how to use Twitch Toolkit.",
+    "Name": "Instructions",
+    "Usage": "!instructions",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows you the current list of commands, which may or may not be this list.",
+    "Name": "All commands",
+    "Usage": "!allcommands",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows you the complete list of installed mods.",
+    "Name": "Installed mods",
+    "Usage": "!installedmods",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "A colony wide resurrector mech serum.",
+    "Name": "Revive all",
+    "Usage": "!reviveall",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "A personal resurrector mech serum.",
+    "Name": "Revive me",
+    "Usage": "!reviveme",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "A personal healer mech serum/",
+    "Name": "Heal me",
+    "Usage": "!healme",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "A colony wide healer mech serum.",
+    "Name": "Healall",
+    "Usage": "!healall",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "Shuffles your passions. If a skill is specified, you'll be guaranteed a minor passion in it.",
+    "Name": "Passion shuffle",
+    "Usage": "!passionshuffle [skill]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "Purchases the part specified and queues it for surgery on your pawn.",
+    "Name": "Surgery",
+    "Usage": "!surgery <item> <quantity/bodypart>",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "Adds a trait for your pawn.",
+    "Name": "Add trait",
+    "Usage": "!trait",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "Removes a trait from our pawn.",
+    "Name": "Remove trait",
+    "Usage": "!removetrait",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "A resurrector mech serum for a random dead colonist.",
+    "Name": "Revive any pawn",
+    "Usage": "!reviveanypawn",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "A healer mech serum for a random colonist.",
+    "Name": "Heal any pawn",
+    "Usage": "!healanypawn",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "Replaces a trait with a different trait.",
+    "Name": "Replace trait",
+    "Usage": "!replacetrait <old> <new>",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": true,
+    "Data": {
+      "IsShortcut": true
+    },
+    "Description": "It's like buy item, but it gets added to your inventory if possible.",
+    "Name": "Backpack",
+    "Usage": "!backpack <item> [quantity]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Downgrades a skill's passion... sometimes.",
+    "Name": "Remove passion",
+    "Usage": "!removepassion <skill>",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Upgrades a skill's passion... sometimes.",
+    "Name": "Add passion",
+    "Usage": "!passion <skill>",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Heals all healable injuries your pawn currently has.",
+    "Name": "Full heal",
+    "Usage": "!fullheal",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Creates a prisoner rescue quest for your most recent pawn.",
+    "Name": "Rescue me",
+    "Usage": "!rescueme",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows your current kill count.",
+    "Name": "Viewer kill count",
+    "Usage": "!mypawnkills",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows your current stats within a given category.",
+    "Name": "Viewer stats",
+    "Usage": "!mypawnstats [stat1] [stat2]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows an overview of your pawn's health. If a capacity is specified, it'll show what's affecting it.",
+    "Name": "Viewer health",
+    "Usage": "!mypawnhealth [capacity]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows an overview of your pawn's needs.",
+    "Name": "Viewer needs",
+    "Usage": "!mypawnneeds",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows an overview of your pawn's gear.",
+    "Name": "Viewer gear",
+    "Usage": "!mypawngear",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows an overview of your pawn's body.",
+    "Name": "Viewer body",
+    "Usage": "!mypawnbody",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows your pawn's work priorities.",
+    "Name": "Viewer work",
+    "Usage": "!mypawnwork [worktype=priority] [...]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows your pawn's bio.",
+    "Name": "Viewer story",
+    "Usage": "!mypawnstory",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows your pawn's current skills and their passions.",
+    "Name": "Viewer skills",
+    "Usage": "!mypawnskills",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Attempts to relink your pawn to you. (Doesn't work for Puppeteer)",
+    "Name": "Fix viewer pawn",
+    "Usage": "!fixmypawn",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Attempts to relink all pawns to their respective viewers. (Doesn't work for Puppeteer)",
+    "Name": "Fix all pawns",
+    "Usage": "!fixallpawns",
+    "UserLevel": "Moderator"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Makes your pawn leave the colony.",
+    "Name": "Abandon pawn",
+    "Usage": "!leave",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows your pawn's relationships to other viewers.",
+    "Name": "Viewer relations",
+    "Usage": "!mypawnrelations [viewer]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows an overview of the colony's current faction relations.",
+    "Name": "Factions",
+    "Usage": "!factions",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows the current research progress. If a project is specified, it'll show the progress of that instead.",
+    "Name": "Research",
+    "Usage": "!research [project/item]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows the first few results for the query in the given category. Valid categories are: 'races', 'traits', 'items', 'events', 'diseases', 'animals', and 'skills'.",
+    "Name": "Lookup",
+    "Usage": "!lookup <item/category> [query]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Similar to the lookup command, except it'll show the price for the first valid match.",
+    "Name": "Price check",
+    "Usage": "!price <item/category> [query]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Removes viewers that were stuck in the \"game paused\" limbo.",
+    "Name": "Unstick",
+    "Usage": "!unstick",
+    "UserLevel": "Moderator"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Toggles whether or not viewers can actively purchase things from the store.",
+    "Name": "Toggle store",
+    "Usage": "!togglestore",
+    "UserLevel": "Moderator"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Makes your pawn insult a random viewer. If a viewer is specified, you'll insult them instead.",
+    "Name": "Insult",
+    "Usage": "!insult [target]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows the colony's current wealth. This command uses the same value the storyteller will use.",
+    "Name": "Colony wealth",
+    "Usage": "!wealth",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Shows the current number of colonists remaining in the colony.",
+    "Name": "Colonist count",
+    "Usage": "!colonists",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "Provides some information about supported things. Supported categories are: weapons",
+    "Name": "Database",
+    "Usage": "!rwdata <category/weaponname> [weaponname]",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": "It's like unstick, but safe for viewers to use.",
+    "Name": "Unstick me",
+    "Usage": "!unstickme",
+    "UserLevel": "Anyone"
+  },
+  {
+    "Shortcut": false,
+    "Data": {
+      "IsShortcut": false
+    },
+    "Description": null,
+    "Name": "hello",
+    "Usage": "!hello",
+    "UserLevel": "Moderator"
+  }
+]
