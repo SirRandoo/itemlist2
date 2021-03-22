@@ -1,0 +1,13 @@
+[
+    {
+      "data": {
+        "Mod": "RimWorld",
+        "KarmaType": null,
+        "CustomName": false
+      },
+      "DefName": "Human",
+      "Enabled": true,
+      "Name": "human",
+      "price": 2917
+    }
+  ]
